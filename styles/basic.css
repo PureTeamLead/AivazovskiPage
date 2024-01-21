@@ -5,5 +5,23 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: var();
+	background-color: var(--bg-main);
+}
+
+.container {
+	/* padding: 0px 247px; */
+	margin: 0 auto;
+	max-width: 970px;
+	padding: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
