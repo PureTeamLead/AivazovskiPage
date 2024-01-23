@@ -1,0 +1,48 @@
+.hero {
+	padding: 47px 0 70px 0;
+}
+
+.hero__content {
+	text-align: center;
+}
+
+.hero__title {
+	color: var(--color-main-black);
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.hero__subtitle {
+	color: var(--color-main-black);
+	font-size: 18px;
+	font-weight: 500;
+	margin: 22px 0 35px 0;
+}
+
+.hero__picture {
+}
+
+.hero__picture-img {
+	height: 535px;
+	width: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 480px) {
+	.hero__content {
+		text-align: left;
+		max-width: 250px;
+	}
+
+	.hero__title {
+		font-size: 32px;
+	}
+
+	.hero__subtitle {
+		font-size: 14px;
+	}
+
+	.hero__picture-img {
+		height: 490px;
+	}
+}
