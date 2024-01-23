@@ -36,3 +36,12 @@ p {
 	margin: 0;
 	padding: 0;
 }
+
+.divider {
+	height: 1px;
+	max-width: 420px;
+	width: 100%;
+	background-color: var(--black);
+	border: none;
+	margin: 0 auto;
+}
