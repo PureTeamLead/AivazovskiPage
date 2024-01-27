@@ -45,6 +45,51 @@
 				</nav>
 			</div>
 		</header>
+
+		<div class="mob__menu" aria-label="mobile navigation">
+			<label for="toggler-id" aria-label="open-close mobile-navigation menu">
+				<svg class="mobile-navigation-burger" aria-label="burger icon ">
+					<use href="assets/sprites.svg#burger-icon"></use>
+				</svg>
+			</label>
+
+			<input type="checkbox" id="toggler-id" class="mob-navigation-toggler" />
+
+			<nav class="mob__nav-menu" aria-label="mobile navigation">
+				<ul class="mob__nav-list" aria-label="mobile navigation list">
+					<li>
+						<a class="mob__nav-link" href="#" aria-label="link to home">Home</a>
+					</li>
+					<li>
+						<a class="mob__nav-link" href="#" aria-label="link to about"
+							>About</a
+						>
+					</li>
+					<li>
+						<a class="mob__nav-link" href="#" aria-label="link to history"
+							>History</a
+						>
+					</li>
+					<li>
+						<a class="mob__nav-link" href="#" aria-label="link to portfolio"
+							>Portfolio</a
+						>
+					</li>
+					<li>
+						<a class="mob__nav-link" href="#" aria-label="link to contacts"
+							>Contacts</a
+						>
+					</li>
+				</ul>
+
+				<label for="toggler-id" aria-label="close mobile-navigation menu">
+					<svg class="mobile-navigation-close" aria-label="close-icon">
+						<use href="assets/sprites.svg#cross-icon"></use>
+					</svg>
+				</label>
+			</nav>
+		</div>
+
 		<main aria-label="main">
 			<section class="hero" aria-label="hero section">
 				<div class="container">
@@ -166,7 +211,7 @@
 		</main>
 		<footer class="contacts" aria-label="Contacts">
 			<h2 class="contacts__title">Contacts</h2>
-			<button type="button" class="contacts__button" target="_blank">
+			<button type="button" class="contacts__button">
 				<a
 					class="contacts__link"
 					href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fayvazovskiy.su%2F&psig=AOvVaw2KlH9pHrW2wmpwGEsJulAz&ust=1706208760941000&source=images&cd=vfe&ved=0CAYQn5wMahcKEwjwhdGT2faDAxUAAAAAHQAAAAAQBA"
@@ -174,7 +219,7 @@
 				>
 			</button>
 			<address class="contacts__socials" aria-label="social icons">
-				<a class="contacts__socia-icon" href="https://youtube.com">
+				<a class="contacts__social-icon" href="https://youtube.com">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						width="65"
